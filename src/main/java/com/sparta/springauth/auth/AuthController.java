@@ -44,6 +44,7 @@ public class AuthController {
         return "createSession";
     }
 
+
     @GetMapping("/get-session")
     public String getSession(HttpServletRequest req) {
         // 세션이 존재할 경우 세션 반환, 없을 경우 null 반환
