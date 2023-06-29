@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 @Service
-// @RequiredArgsConstructor(생성자 대신 사용 가능)
+//@RequiredArgsConstructor 생성자 대신 사용 가능
 public class UserService {
 
     private final UserRepository userRepository;
